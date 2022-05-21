@@ -17,7 +17,7 @@ public class GUI implements ActionListener {
 
         JPanel panel = new JPanel(); //Back
         JFrame frame = new JFrame(); //Front
-        frame.setSize(800, 400); //size
+        frame.setSize(400, 400); //size
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //(Close option)
         frame.add(panel); //Panel on the frame - box
 
